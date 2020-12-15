@@ -143,13 +143,9 @@ body {
   cursor: pointer;
 }
 
-.learn-button-reverse {
-  padding: 10px;
-  border-radius: 20px;
-  background: #e8c9b4;
+.learn-button:hover {
+  background-color: #e8c9b4;
   color: black;
-  border: 2px solid #e8c9b4;
-  cursor: pointer;
 }
 
 .specific-button:focus {

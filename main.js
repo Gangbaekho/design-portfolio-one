@@ -13,13 +13,6 @@ for(let i = 0 ; i < circleButtonList.length ; i++){
     const circleButton = circleButtonList[i]
     circleButton.addEventListener('click',function(){
         phoneImageElement.src=imageSrcList[i]
-        if(i === circleButtonList.length-1){
-            learnButton.classList.remove('learn-button')
-            learnButton.classList.add('learn-button-reverse')
-        }else{
-            learnButton.classList.remove('learn-button-reverse')
-            learnButton.classList.add('learn-button')
-        }
     })     
 }
 
