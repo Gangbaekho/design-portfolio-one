@@ -22,3 +22,22 @@ for(let i = 0 ; i < circleButtonList.length ; i++){
         }
     })     
 }
+
+const hamberger = document.querySelector('.hamberger')
+const sideMenu = document.querySelector('.side-menu')
+const backdrop = document.querySelector('.backdrop')
+
+console.dir(backdrop)
+
+
+hamberger.addEventListener('click',function(){
+    sideMenu.style.display='block'
+    backdrop.style.display='block'
+})
+
+backdrop.addEventListener('click',function(){
+    sideMenu.style.display='none'
+    backdrop.style.display='none'
+})
+
+
