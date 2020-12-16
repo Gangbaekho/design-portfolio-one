@@ -310,8 +310,8 @@ body {
 }
 
 .part-three-image-container > div {
-  width: 30%;
-  height: 100%;
+  width: 50vh;
+  height: 50vh;
   text-align: center;
 }
 
@@ -326,13 +326,13 @@ body {
 }
 
 .part-three-image1 {
-  background-image: url("./image/part-three-image1.jpg");
+  background-image: url("./asset/image_03.png");
 }
 .part-three-image2 {
-  background-image: url("./image/part-three-image2.jpg");
+  background-image: url("./asset/image_04.png");
 }
 .part-three-image3 {
-  background-image: url("./image/part-three-image3.jpg");
+  background-image: url("./asset/image_05.png");
 }
 
 .lorem-comment {
