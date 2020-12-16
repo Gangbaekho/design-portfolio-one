@@ -148,7 +148,7 @@ body {
   color: black;
 }
 
-.specific-button:focus {
+.learn-button:focus {
   outline: none;
 }
 
@@ -207,15 +207,16 @@ body {
   height: 75%;
   background-size: cover;
   background-repeat: none;
+  background-position: center;
   text-align: center;
 }
 
 .image-one {
-  background-image: url("./image/part-one-image1.jpg");
+  background-image: url("./asset/image_01.png");
 }
 
 .image-two {
-  background-image: url("./image/part-one-image2.jpg");
+  background-image: url("./asset/image_02.png");
 }
 
 .text-container {
@@ -247,12 +248,59 @@ body {
 
 .part-two-image-container {
   height: 60vh;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
-.part-two-image-container img {
-  width: 50vh;
-  height: 50vh;
+.part-two {
+  width: 30%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.part-two:hover .hover-backdrop,
+.part-two:hover .learn-more-hover {
+  display: block;
+}
+
+.part-two-image1 {
+  background-image: url("./asset/phone1.png");
+}
+
+.part-two-image2 {
+  background-image: url("./asset/phone2.png");
+}
+.part-two-image3 {
+  background-image: url("./asset/phone3.png");
+}
+
+.hover-backdrop {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+.learn-more-hover {
+  display: none;
+  height: 3rem;
+  width: 10rem;
+  border: 2px solid #e8c9b4;
+  text-align: center;
+  font-weight: bold;
+  line-height: 3rem;
+  color: #e8c9b4;
+  z-index: 3;
+  cursor: pointer;
 }
 
 .part-three-image-container {
