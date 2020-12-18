@@ -327,7 +327,20 @@ body {
 
 .part-three-image1 {
   background-image: url("./asset/image_03.png");
+  position: relative;
 }
+
+.part-three-image1 div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background-color: #e8c9b4;
+}
+
 .part-three-image2 {
   background-image: url("./asset/image_04.png");
 }
