@@ -352,33 +352,57 @@ body {
   margin-top: 1rem;
 }
 
-.part-four-image-container {
-  width: 80%;
-  margin: 0 auto;
+.part-four-container {
+  width: 90%;
   height: 60vh;
+  margin: 0 auto;
   display: flex;
-  justify-content: space-around;
 }
 
-.part-four-image1 {
-  width: 30%;
-  background-repeat: none;
-  background-size: cover;
-  background-position: bottom right;
-  background-image: url("./image/part-four-image.jpg");
-}
+.part-four-main {
+  width: 70%;
 
-.part-four-contents {
-  width: 60%;
-}
-
-.part-four-contents h2 {
   color: #ccc;
+  padding: 2rem;
 }
 
-.part-four-contents p {
-  color: #e8c9b4;
-  margin: 1rem 0;
+.part-four-main__image {
+  height: 70%;
+  background-image: url("./asset/image_06_l.png");
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+}
+
+.part-four-sub__one,
+.part-four-sub__two {
+  height: 50%;
+
+  padding: 1rem;
+}
+
+.part-four-sub__one__image,
+.part-four-sub__two__image {
+  height: 70%;
+}
+
+.part-four-sub__one__image {
+  background-image: url("./asset/image_07_l.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.part-four-sub__two__image {
+  background-image: url("./asset/image_08_l.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.part-four-sub {
+  width: 30%;
+  height: 100%;
+
+  color: #ccc;
 }
 
 .main-footer {
