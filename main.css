@@ -157,12 +157,12 @@ body {
 }
 
 .logo {
-  padding-left: 10px;
+  padding-left: 6%;
   color: #ccc;
 }
 
 .hamberger {
-  padding-right: 10px;
+  padding-right: 3rem;
   cursor: pointer;
 }
 
