@@ -361,9 +361,9 @@ body {
 
 .part-four-main {
   width: 70%;
-
   color: #ccc;
-  padding: 2rem;
+  padding: 0 2rem;
+  border-right: 0.2px solid #ccc;
 }
 
 .part-four-main__image {
@@ -377,8 +377,15 @@ body {
 .part-four-sub__one,
 .part-four-sub__two {
   height: 50%;
-
+  width: 80%;
   padding: 1rem;
+  margin: 0 auto;
+  color: #ccc;
+}
+
+.part-four-sub__one h3,
+.part-four-sub__two h3 {
+  padding-top: 1rem;
 }
 
 .part-four-sub__one__image,
@@ -387,13 +394,13 @@ body {
 }
 
 .part-four-sub__one__image {
-  background-image: url("./asset/image_07_l.png");
+  background-image: url("./asset/image_07_s.png");
   background-size: cover;
   background-position: center;
 }
 
 .part-four-sub__two__image {
-  background-image: url("./asset/image_08_l.png");
+  background-image: url("./asset/image_08_s.png");
   background-size: cover;
   background-position: center;
 }
@@ -407,6 +414,7 @@ body {
 
 .main-footer {
   position: relative;
+  margin-top: 5rem;
 }
 
 .change-button-list {
@@ -416,6 +424,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
 }
 
 .change-button-list__direction {
@@ -446,5 +455,17 @@ body {
 
 .to-top {
   position: absolute;
-  right: 0;
+  right: 10rem;
+  top: 10px;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  border-radius: 10px;
+}
+
+.to-top a {
+  color: white;
+  text-decoration: none;
 }
