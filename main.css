@@ -177,6 +177,17 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+}
+
+.gray-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .for-line {
@@ -351,6 +362,13 @@ body {
 
 .lorem-comment {
   margin-top: 1rem;
+  color: #ccc;
+}
+
+.view-more-button-2 {
+  margin-top: 0px;
+  font-size: 1rem;
+  color: gray;
 }
 
 .part-four-container {
